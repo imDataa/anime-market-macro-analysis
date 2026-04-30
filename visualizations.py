@@ -3,7 +3,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('aja_fx_combined.csv', index_col='year')
+df = pd.read_csv('data/aja_fx_combined.csv', index_col='year')
 
 fig, axes = plt.subplots(2, 2, figsize=(16, 12))
 fig.suptitle('Japanese Anime Industry: Monetary Illusion Analysis (2002-2024)',
